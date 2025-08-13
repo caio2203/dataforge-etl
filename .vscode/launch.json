@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug: DataForge (C++)",
+            "type": "cppdbg",
+            "request": "launch",
+            // Caminho para o teu executável, conforme definido na Makefile
+            "program": "${workspaceFolder}/build/dataforge",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            // ---> A LIGAÇÃO MÁGICA <---
+            // Executa a tarefa de compilação para depuração antes de iniciar
+            "preLaunchTask": "Build: Compilar para Depuração (make debug)",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+# Arquivo .gitignore para o projeto DataForge ETL (C++)
+
+#  Compilação e Build   
+
+# Ignorar o diretório de build inteiro. Esta é a regra mais importante.
+# Contém todos os arquivos objeto (.o) e o executável final.
+build/
+
+# Ignorar arquivos objeto e de dependência que possam ser criados fora da pasta de build
+*.o
+*.d
+
+
+#  Arquivos Gerados pelo Programa  
+
+# Ignorar o diretório de saída de dados. O repositório deve conter
+# apenas o código e os dados de ENTRADA para reproduzir os resultados.
+data/output/
+
+# Ignorar arquivos de log que o programa possa gerar
+*.log
+
+
+#  Arquivos de IDE e Editores   
+
+# Visual Studio Code
+# Ignora a pasta .vscode, mas mantém a configuração do projeto compartilhável.
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Outros editores comuns
+.idea/
+*.swp
+*.swo
+*~
+
+
+#  Arquivos de Sistema Operacional 
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+#        Outros         
+
+# Ignorar arquivos de crash dump
+core.*
+*.stackdump
+
+# Ignorar pacotes de dependências gerenciados (se usar Conan, vcpkg, etc. no futuro)
+vendor/

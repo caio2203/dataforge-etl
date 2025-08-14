@@ -6,7 +6,7 @@ O projeto nasceu como um estudo aprofundado sobre arquitetura de software de bai
 
 -----
 
-## 📋 Principais Características
+## Principais Características
 
   * **Núcleo de Alto Desempenho em C++17:** Utiliza recursos modernos de C++ para garantir máxima eficiência e segurança no gerenciamento de memória, sem a sobrecarga de um garbage collector.
   * **Arquitetura Modular e Extensível:** O design do motor é baseado em uma clara separação de responsabilidades (Extract, Transform, Load), permitindo que novos formatos de dados e transformações sejam adicionados com mínimo impacto no sistema existente.
@@ -19,7 +19,7 @@ O projeto nasceu como um estudo aprofundado sobre arquitetura de software de bai
 
 -----
 
-## 🏛️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 A organização do DataForge segue as melhores práticas de engenharia de software, com uma clara separação entre interface (`include`), implementação (`src`), testes e outros artefatos. Isso garante um projeto limpo, escalável e de fácil manutenção.
 

@@ -1,4 +1,4 @@
-# DataForge ETL Engine 🚀
+# DataForge ETL Engine 
 
 **DataForge** é um motor de ETL (Extract, Transform, Load) de alto desempenho, desenvolvido em C++17 moderno. Projetado do zero com foco em performance e modularidade, o sistema é capaz de processar arquivos de dados em escala de gigabytes, oferecendo uma fundação robusta para pipelines de engenharia de dados complexos.
 
@@ -45,7 +45,7 @@ dataforge-etl/
 
 -----
 
-## 🛠️ Primeiros Passos
+## Primeiros Passos
 
 ### Pré-requisitos
 
@@ -86,7 +86,7 @@ Para compilar e executar o projeto, você precisará de:
 
 -----
 
-## 🗺️ Status e Roadmap
+## Status e Roadmap
 
 Este projeto está em desenvolvimento ativo.
 
@@ -103,7 +103,7 @@ Este projeto está em desenvolvimento ativo.
 
 -----
 
-## 🤝 Como Contribuir
+## Como Contribuir
 
 Contribuições são bem-vindas\! Se você tem ideias para novas funcionalidades, melhorias de performance ou correções de bugs, por favor, siga estes passos:
 
@@ -115,6 +115,6 @@ Contribuições são bem-vindas\! Se você tem ideias para novas funcionalidades
 
 -----
 
-## 📄 Licença
+## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.

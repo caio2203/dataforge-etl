@@ -1,0 +1,3 @@
+[submodule "vendor/fast-serializer"]
+	path = vendor/fast-serializer
+	url = git@github.com:caio2203/fast-serializer.git

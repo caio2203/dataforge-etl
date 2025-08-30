@@ -55,6 +55,3 @@ Desktop.ini
 # Ignorar arquivos de crash dump
 core.*
 *.stackdump
-
-# Ignorar pacotes de dependências gerenciados (se usar Conan, vcpkg, etc. no futuro)
-vendor/
